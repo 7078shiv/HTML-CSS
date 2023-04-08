@@ -1,0 +1,34 @@
+
+/* dexendent combinator */
+div p strong{
+    color:red;
+}
+p strong{
+    color: blue;
+}
+
+ul li a[href="https://google.com"]{
+    color: blue;
+}
+
+/* child combinator */
+/* immidiate child is selected */
+ol > li{
+    color: pink;
+}
+
+/* adjacent combinator */
+/* select in immediate forward direction of h4 */
+h4+p{
+    background-color: red;
+}
+
+/* general sibling */
+
+/* select all in forward direction */
+
+section div~p{
+    background-color: rgb(238, 220, 17);
+    text-decoration: line-through;
+}
+

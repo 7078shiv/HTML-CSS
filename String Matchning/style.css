@@ -1,0 +1,11 @@
+
+/* start with queriry string */
+a[href^="https"]{
+    color: brown;
+}
+
+/* ends with queriey string */
+
+a[href="in"]{
+    
+}

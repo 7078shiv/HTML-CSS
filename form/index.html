@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Html Forms</h2>
+ <!-- it is used to send the data using get or post request  -->
+    <!-- if we send data using get request then it is send in the form of querie string format but in case of post request format data is send in hidden form -->
+    <!-- action is tell that where we have to send the form data -->
+    <form action="/" method="get">
+        <!-- label is used to bind text like username with input text -->
+        <!-- fieldset is used to wrap our data -->
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">password</label>
+        <input type="password" id="password"><br>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file">
+        </fieldset>
+
+    </fieldset>
+    <button>submit</button>
+    </form>
+</body>
+</html>

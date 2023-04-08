@@ -1,0 +1,137 @@
+#firdiv{
+    width:100px;
+    height:200px;
+    background-color: pink;
+    border: 20px solid black;
+}
+div:hover{
+    border-radius: 50%;
+    color: yellowgreen;
+    border: 20px solid red;
+}
+h1:active{
+    background: blue;
+    border: 2px solid black;
+}
+input:focus{
+    background: cornflowerblue;
+}
+ul a:visited{
+    color: greenyellow;
+}
+/* ol li{
+    color: red;
+} */
+
+/* if we want to select first li */
+/* ol li:first-child{
+    color:fuchsia
+}
+
+ol li:last-child{
+    color: orange;
+}
+
+/* we can write the no to select */
+/* ol li:nth-of-type(5){
+    text-decoration: line-through;
+    color: blueviolet;
+}
+
+ol li:nth-of-type(even){
+    font-weight: bold;
+    color: aquamarine;
+}
+ol li:nth-of-type(odd){
+    background-color: aqua;
+} */ 
+
+ol li:nth-of-type(2n+3):active{
+    background-color: rgb(11, 11, 241);
+}
+
+h1::after{
+    content: "This is from CSS";
+    border: 1px dashed black;
+    background-color: azure;
+}
+
+h1::before{
+    content: "\2763";
+    color: red;
+}
+
+ul li::before{
+    content: "\1F4DE";
+
+}
+
+body{
+    background: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+
+h2{
+    color: orange;
+}
+li{
+    color: blue;
+}
+
+p{
+    background-color: yellow;
+}
+
+input{
+    border: 3px solid red;
+}
+.hello{
+    background-color: white;
+}
+
+#special{
+    border: 2px solid blue;
+}
+
+div p{
+    font-size: 25px;
+    width: 100px;
+}
+
+input[type="text"]{
+    background-color: gray;
+}
+
+div:nth-of-type(3) p{
+    background-color: pink;
+}
+
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white;
+}
+div:nth-of-type(3)em{
+    color: wheat;
+    font-size: 20px;
+}
+
+input[checked]{
+    margin-left: 50px;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+#special::first-letter{
+    color: green;
+    font-size: 100px;
+}
+h1:hover{
+    color: blueviolet;
+}
+
+a:visited{
+    color: gray;
+}
