@@ -1,0 +1,14 @@
+
+
+.one{
+    color: green;
+}
+
+#special{
+    color: aqua;
+}
+
+h1{
+    color: red;
+}
+/* specific>one>h1 */

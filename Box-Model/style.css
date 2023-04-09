@@ -1,0 +1,32 @@
+p{
+    /* property of box model */
+
+    /* 1 dimention */
+
+    /* height: 200px; */
+
+    width:200px;
+
+
+    /* border */
+    border: 2px solid black;
+
+    /* margin  it is shorthand property means
+    margin can be left, right, top bottom*/
+
+/* auto work only left and right */
+    margin:40px auto;
+/* 
+    margin-top: 50px;
+    margin-right:60px;
+    margin-left:90px;
+    margin-bottom: 2px; */
+
+
+    /* padding */
+      /* padding: 40px; */
+      /* clockwise direction */
+      padding: 30px 20px 10px 50px ;
+      
+
+}

@@ -1,0 +1,39 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+    display: inline-block;
+}
+
+#static #middle{
+    left:100px;
+    right:200px;
+    top:300px;
+    bottom: 400px;;
+}
+
+#relative #mid{
+    position: relative;
+    left: 20px;
+    top:30px;
+}
+/* parent  is given position except static*/
+#absolute{
+    position: relative;
+    border: 2px solid brown;
+}
+
+#absolute #midabs{
+    position:absolute;
+   top:0px; 
+   left:0px;
+   bottom: 0px;
+   right:0px;
+}
+
+
+#fixed #midfix{
+    position:fixed;
+    top:0px;
+    left: 0px;
+}

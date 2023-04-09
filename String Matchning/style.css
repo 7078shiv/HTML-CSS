@@ -1,11 +1,17 @@
 
 /* start with queriry string */
-a[href^="https"]{
+a[href^="http"]{
     color: brown;
 }
 
 /* ends with queriey string */
 
-a[href="in"]{
-    
+a[href$="in"]{
+    color: red;
+}
+
+/* present anywhare */
+
+a[href*="coding"]{
+    color: palegreen;
 }
